@@ -1,0 +1,18 @@
+* výběr embedovaného obrázku nebo alba skrz WP dialog pro vložení médií
+* embed všechna alba jednoho uživatele
+  (počet alb, default 5, dočítání dalších alb přes ajax)
+* widget
+  * jen jeden widget, podle vloženého URL sám rozhodne, co vloží
+  * admin widgetu zobrazuje status, jestli bude zobrazena fotka, galerie, nebo uživatel
+  * jedna fotka
+    * option zobrazení popisku
+    * option hyperlink
+      * na rajce.net stránku obrázku
+      * na img src -- otestovat lightbox (tohle asi default)
+  * album
+    * jako mini-preview
+    * option hyperlink na album na rajce.net
+    * cycle obrázků z alba
+  * uživatel
+    * optiony jako v pluginu https://wordpress.org/plugins/rajce
+    * dohrávání dalších alb přes ajax
